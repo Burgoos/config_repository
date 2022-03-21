@@ -1,0 +1,4 @@
+dbname: AssetsPersonDB
+dbport: 27017
+server:
+    port: 8085
