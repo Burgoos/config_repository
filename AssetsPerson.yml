@@ -1,12 +1,11 @@
-#dbname: AssetsPersonDB
-#dbport: 27017
+server:
+    port: 8085
 spring:
     data:
         mongodb:
-          uri: mongodb+srv://Burgos:<aburgoss123456>@cluster0.ibhoc.mongodb.net/AssetsPersonDB?retryWrites=true&w=majority
+          uri: mongodb+srv://Burgos:aburgoss123456@cluster0.ibhoc.mongodb.net/AssetsPersonDB?retryWrites=true&w=majority
           database: AssetsPersonDB
-server:
-    port: 8085
+
 eureka:
     client:
         serviceUrl:
