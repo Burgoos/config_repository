@@ -6,7 +6,7 @@ spring:
         name: AssetsPerson
     data:
         mongodb:
-            uri: mongodb+srv://Burgos:aburgos123456@cluster0.ibhoc.mongodb.net/AssetsPersonDB?retryWrites=true&w=majority
+            uri: mongodb+srv://aburgoss:aburgoss@cluster0.ibhoc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 eureka:
     client:
         serviceUrl:
